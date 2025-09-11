@@ -1,0 +1,15 @@
+const value1="Hlo world"
+let value2="my name is Kushagra Mishra"
+var value3="I am learning Javascript"
+console.log(value1)
+console.log(value2)
+console.log(value3)
+value2="I am 18 years old"
+console.log(value2)
+value3="I am from India"
+console.log(value3)
+//var is old way of declaring variables
+//let and const are the new way of declaring variables
+//const is used to declare variables that cannot be reassigned 
+//let is ussed to declare variables that can be reassigned
+console.table([value1,value2,value3])
