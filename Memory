@@ -1,0 +1,16 @@
+// two types of memory allocation in js
+// stack memory allocation
+let a=10
+let b=20
+let c=a+b
+console.log(c)
+
+// heap memory allocation
+let info={
+    name:"Kushagra",
+    age:19,
+    hobbies:["coding","reading","singing"]
+
+}
+console.log(info)
+console.table([c,info])
