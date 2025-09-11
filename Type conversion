@@ -1,0 +1,10 @@
+let name="Kushagra Mishra"
+let age="19"
+let valueInNumber=Number(name)
+console.log(typeof valueInNumber)
+console.log(valueInNumber)// NaN >> Not a number
+let ageInNumber=Number(age)
+console.log(typeof ageInNumber,ageInNumber)
+let value=1
+let valueInBoolean=Boolean(value)
+console.log(valueInBoolean,typeof valueInBoolean)
