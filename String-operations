@@ -1,0 +1,28 @@
+const name="kushagra mishra"
+const value=50
+console.log(name+" has scored"+ value+" marks") // old way of string concatenation.
+console.log(`My name is ${name} and I have scored ${value} in the exam `) // new way of string concatenation using backticks.
+const armyName=new String("kushagra mishra") // string object
+console.log(typeof armyName)//object
+console.log(armyName [0]) // accessing first character of string
+console.log(armyName.length) // length of string
+console.log(armyName.toUpperCase()) // converting string to uppercase
+console.log(armyName.toLowerCase()) // converting string to lowercase
+console.log(armyName.indexOf("mishra")) //gives the index of the substring
+console.log(armyName.lastIndexOf("a")) // gives the last index of the substring
+console.log(armyName.slice(0,8)) // give the substring from index 0 to 8 (8 not included)
+console.log(armyName.replace("kushagra","kushu")) // replace the substring with another substring
+console.log(armyName.includes("mishra")) // return true if substring is present else false
+console.log(armyName.charAt(3)) // give the character at the given index
+console.log(armyName.startsWith("kush")) // return true if string starts with the given substring else false
+console.log(armyName.endsWith("mishra")) // return true if string end with the given substring else false
+const newString="  kushagra mishra  " // string with whitespace
+console.log(newString) // original string
+console.log(newString.trim()) // string after removing whitespace from both ends
+console.log(newString.trimStart()) // string after removing whitespace from start
+console.log(newString.trimEnd())  // string after removing whitespace from end
+console.log(armyName.split("-")) // split the string into array of substrings based on the given separator
+console.log(armyName.split(" ")) // split the string into array of substrings based on space
+console.log(armyName.concat(" is a good")) // concatenate two strings
+console.log(armyName.repeat(3)) // repeat the string n times
+console.table([name,value,armyName,armyName[0],armyName.length,armyName.toUpperCase(),armyName.toLowerCase(),armyName.indexOf("mishra"),armyName.lastIndexOf("a"),armyName.slice(0,8),armyName.replace("kushagra","kushu"),armyName.includes("mishra"),armyName.charAt(3),armyName.startsWith("kush"),armyName.endsWith("mishra"),newString,newString.trim(),newString.trimStart(),newString.trimEnd(),armyName.split("-"),armyName.split(" "),armyName.concat(" is a good"),armyName.repeat(3)])
