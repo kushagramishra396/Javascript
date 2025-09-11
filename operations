@@ -1,0 +1,36 @@
+let a=5
+let b=9
+console.log(a+b) 
+console.log(a-b) 
+console.log(a*b) 
+console.log(a/b) 
+console.log(a%b) 
+console.log(true )
+console.log(+true)
+console.log("1"+2)
+console.log(2+"1")
+console.log("1"+1+2)
+console.log(1+2+"1")
+console.log(a**2)//exponentiation
+let str1="Hello"
+let str2=" Kushagra"
+let str3=str1+str2
+console.log(str3)
+console.table([a,b,a+b,a-b,a*b,a/b,a%b,true,+true,"1"+2,2+"1","1"+1+2,1+2+"1",a**2,str3])
+
+
+// comparison operators................................................................................................................................................................................
+
+
+
+let a=1
+let b=2
+console.table([a==b,a===b,a!=b,a!==b,a>b,a<b,a>=b,a<=b,null==0,null>0,null<0,null>=0,null<=0,undefined==0,undefined>0,undefined<0,undefined>=0,undefined<=0,undefined==null,undefined===null,undefined!=null])
+// == >> checks only value
+// === >>checks value and datatype
+// != >> not equal value
+// !== >> not equal value and datatype
+// > >> greater than
+// < >> less than
+// >= >> greater than or equal to
+// <= >> less than or equual to
